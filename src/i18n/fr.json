@@ -1,0 +1,17 @@
+{
+	"fr": {
+		"census_lang": {
+			"total_speaking": "Nombre total de personnes : {{total}}",
+			"total_speaking_short": "Nombre total de personnes",
+			"percent_total": "Pourcentage de la population totale : {{-percent}} %",
+			"percent_total_short": "Pourcentage de la population totale",
+			"percent_group": "Pourcentage des {{group}} : {{-percent}} %",
+			"percent_group_short": "Pourcentage de la catégorie",
+			"lang_cat": "Catégories de langues",
+			"lang_fam": "Familles de langues",
+			"custom_view": "Vue personalisée",
+			"total": "Total",
+			"less_1pt": "< 0,1"
+		}
+	}
+}

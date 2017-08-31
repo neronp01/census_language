@@ -1,0 +1,59 @@
+#view_list, #sgc_list {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.category circle,
+.family circle {
+  cursor: pointer;
+}
+
+.bubble circle {
+  fill: #1095ee;
+  stroke: #031d2f;
+  stroke-width: 0.3;
+  transition: fill .5s linear
+}
+
+.bubble {
+  font-size: 8px;
+  text-anchor: middle;
+}
+
+text {
+  pointer-events: none;
+  transition: opacity .5s linear;
+}
+
+.text-hidden text {
+  opacity: 0
+}
+
+.hover {
+  font-size: 8px;
+}
+
+.hover_lang {
+  font-weight: bolder;
+}
+
+.dl-horizontal {
+  font-size: 80%;
+}
+
+.table tbody tr:not(.langgroup) > th {
+  font-weight: normal;
+  padding-left: 1em;
+}
+
+.langgroup {
+  font-weight: bold;
+}
+
+.table td,
+.table thead th {
+  text-align: right;
+}
